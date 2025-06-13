@@ -1,0 +1,23 @@
+﻿@model IEnumerable<hotelmanagementsystem.Models.Reservation>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Arrival Date</th>
+        <th>Departure Date</th>
+        <th>Email</th>
+        <th>Message</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ArrivalDate.ToShortDateString()</td>
+            <td>@item.DepartureDate.ToShortDateString()</td>
+            <td>@item.Email</td>
+            <td>@item.Note</td>
+        </tr>
+    }
+    </tbody>
+</table>

@@ -1,0 +1,152 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>LuxuryHotel a Hotel Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Rubik:300,400,700" rel="stylesheet" />
+    <link rel="stylesheet" href="@Url.Content("~/Content/bootstrap.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/Content/animate.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/Content/owl.carousel.min.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/Content/fonts/ionicons.min.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/Content/fonts/fontawesome.min.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/Content/magnific-popup.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/Content/style.css")" />
+</head>
+<body>
+
+    <!-- Header -->
+    <header role="banner">
+        <nav class="navbar navbar-expand-md navbar-dark bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="@Url.Action("Index", "Home")">SFMHotel</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse navbar-light" id="navbarsExample05">
+                    <ul class="navbar-nav ml-auto pl-lg-5 pl-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="@Url.Action("Index", "Home")">Home</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("Rooms", "Room")">Rooms</a></li>
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("Index", "Blog")">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("About", "Home")">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("Contact", "Home")">Contact</a></li>
+
+                        @if (Session["User"] != null)
+                        {
+                            var currentUser = Session["User"] as hotelmanagementsystem.Models.User;
+                            <li class="nav-item cta">
+                                <a class="nav-link font-weight-bold text-success">
+                                    <span>Hello, @currentUser.FullName</span>
+                                </a>
+                            </li>
+                            <li class="nav-item cta">
+                                <a class="nav-link" href="@Url.Action("Logout", "Account")"><span>Logout</span></a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item cta">
+                                <a class="nav-link" href="@Url.Action("Login", "Account")"><span>Login</span></a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="loader" class="show fullscreen">
+        <svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214" />
+        </svg>
+    </div>
+
+    <!-- Page Content -->
+    @RenderBody()
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-4">
+                    <h3>Phone Support</h3>
+                    <p>24/7 Call us now.</p>
+                    <p class="lead"><a href="tel://">+ 1 332 3093 323</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Connect With Us</h3>
+                    <p>We are socialized. Follow us</p>
+                    <p>
+                        <a href="#" class="pl-0 p-3"><span class="fa fa-facebook"></span></a>
+                        <a href="#" class="p-3"><span class="fa fa-twitter"></span></a>
+                        <a href="#" class="p-3"><span class="fa fa-instagram"></span></a>
+                        <a href="#" class="p-3"><span class="fa fa-vimeo"></span></a>
+                        <a href="#" class="p-3"><span class="fa fa-youtube-play"></span></a>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Subscribe</h3>
+                    <form action="#" class="subscribe">
+                        <div class="form-group">
+                            <button type="submit"><span class="ion-ios-arrow-thin-right"></span></button>
+                            <input type="email" class="form-control" placeholder="Enter email">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-7 text-center">
+                    &copy;
+                    <script>document.write(new Date().getFullYear());</script> All rights reserved |
+                    Template by <a href="@Url.Action("Index","Home")" target="_blank">SFM</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts (jQuery First!) -->
+    <script src="@Url.Content("~/Scripts/jquery-3.2.1.min.js")"></script>
+    <script src="@Url.Content("~/Scripts/jquery-migrate-3.0.0.js")"></script>
+    <script src="@Url.Content("~/Scripts/popper.min.js")"></script>
+    <script src="@Url.Content("~/Scripts/bootstrap.min.js")"></script>
+
+    <!-- Validation -->
+    <script src="@Url.Content("~/Scripts/jquery.validate.min.js")"></script>
+    <script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")"></script>
+
+    <!-- Other Scripts -->
+    <script src="@Url.Content("~/Scripts/owl.carousel.min.js")"></script>
+    <script src="@Url.Content("~/Scripts/jquery.waypoints.min.js")"></script>
+    <script src="@Url.Content("~/Scripts/jquery.stellar.min.js")"></script>
+    <script src="@Url.Content("~/Scripts/jquery.magnific-popup.min.js")"></script>
+    <script src="@Url.Content("~/Scripts/magnific-popup-options.js")"></script>
+    <script src="@Url.Content("~/Scripts/main.js")"></script>
+
+    <!-- Page Specific Scripts -->
+    @RenderSection("Scripts", required: false)
+
+    <script>
+        $(document).ready(function () {
+            var currentUrl = window.location.pathname.toLowerCase();
+
+            $(".navbar-nav .nav-link").each(function () {
+                var link = $(this).attr("href").toLowerCase();
+
+                if (currentUrl === link || currentUrl.startsWith(link)) {
+                    $(".navbar-nav .nav-link").removeClass("active");
+                    $(this).addClass("active");
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+﻿@model hotelmanagementsystem.Models.Room
+
+@using (Html.BeginForm("EditRoomFromDashboard", "Room", FormMethod.Post, new { id = "editRoomForm" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(m => m.Id)
+
+    <div class="modal-header">
+        <h5 class="modal-title">Edit Room - @Model.RoomNumber</h5>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+    </div>
+
+    <div class="modal-body">
+        <div class="form-group">
+            @Html.LabelFor(m => m.RoomNumber)
+            @Html.TextBoxFor(m => m.RoomNumber, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Title)
+            @Html.TextBoxFor(m => m.Title, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Type)
+            @Html.TextBoxFor(m => m.Type, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Price)
+            @Html.TextBoxFor(m => m.Price, new { @class = "form-control", type = "number" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.IsAvailable)
+            @Html.DropDownListFor(m => m.IsAvailable, new SelectList(new[] {
+                new { Text = "Yes", Value = "true" },
+                new { Text = "No", Value = "false" }
+            }, "Value", "Text", Model.IsAvailable.ToString().ToLower()), new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="modal-footer">
+        <button type="submit" class="btn btn-primary">Save Changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    </div>
+}
+
+<script>
+    // Submit Edit Form via AJAX
+    $("#editRoomForm").submit(function (e) {
+        e.preventDefault();
+        $.ajax({
+            url: '@Url.Action("EditRoomFromDashboard", "Room")',
+            type: "POST",
+            data: $(this).serialize(),
+            success: function (html) {
+                $("#editRoomModal").modal("hide");
+                $("#contentArea").html(html);
+            }
+        });
+    });
+
+    $(document).on("click", ".btn-secondary, .close", function () {
+        $("#editRoomModal").modal("hide");
+    });
+</script>

@@ -1,0 +1,41 @@
+﻿@using hotelmanagementsystem.Models
+@model List<hotelmanagementsystem.Models.Room>
+
+@{
+    ViewBag.Title = "Manage Rooms";
+}
+
+<h2>Room List</h2>
+<a class="btn btn-primary" href="@Url.Action("Create")">Add New Room</a>
+<br /><br />
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th>Title</th>
+        <th>Price</th>
+        <th>Image</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+        @foreach (var r in Model)
+        {
+            @Html.ActionLink("Book Now", "Create", "Reservation", new { id = r.Id }, new { @class = "btn btn-success" })
+
+            <tr>
+                <td>@r.RoomNumber</td>
+                <td>@r.Price</td>   
+                <td>
+                    @if (!string.IsNullOrEmpty(r.ImageUrl))
+                    {
+                        <img src="@r.ImageUrl" width="100" />
+                    }
+                </td>
+                <td>
+                    <a class="btn btn-warning" href="@Url.Action("Edit", new { id = r.Id })">Edit</a>
+                    <a class="btn btn-danger" href="@Url.Action("Delete", new { id = r.Id })" onclick="return confirm('Are you sure?')">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

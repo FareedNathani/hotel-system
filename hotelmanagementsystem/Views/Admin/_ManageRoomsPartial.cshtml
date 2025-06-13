@@ -1,0 +1,118 @@
+﻿@model IEnumerable<hotelmanagementsystem.Models.Room>
+
+<!-- Room Add Form -->
+<div class="mb-4">
+    <h5>Add New Room</h5>
+    @using (Html.BeginForm("CreateRoomFromDashboard", "Room", FormMethod.Post, new { id = "addRoomForm" }))
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-row">
+            <div class="form-group col-md-3">
+                <input type="text" name="RoomNumber" class="form-control" placeholder="Room Number" required />
+            </div>
+            <div class="form-group col-md-3">
+                <input type="text" name="Title" class="form-control" placeholder="Title" required />
+            </div>
+            <div class="form-group col-md-2">
+                <input type="text" name="Type" class="form-control" placeholder="Type" required />
+            </div>
+            <div class="form-group col-md-2">
+                <input type="number" name="Price" class="form-control" placeholder="Price" required />
+            </div>
+            <div class="form-group col-md-2">
+                <select name="IsAvailable" class="form-control">
+                    <option value="true">Available</option>
+                    <option value="false">Not Available</option>
+                </select>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-success">Add Room</button>
+    }
+</div>
+
+<!-- Room List -->
+<div class="card">
+    <div class="card-header bg-success text-white">
+        <h5 class="mb-0">All Rooms</h5>
+    </div>
+    <div class="card-body">
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Room No</th>
+                    <th>Title</th>
+                    <th>Type</th>
+                    <th>Price</th>
+                    <th>Available</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (!Model.Any())
+                {
+                    <tr><td colspan="6" class="text-center text-muted">No rooms available.</td></tr>
+                }
+                else
+                {
+                    foreach (var room in Model)
+                    {
+                        <tr>
+                            <td>@room.RoomNumber</td>
+                            <td>@room.Title</td>
+                            <td>@room.Type</td>
+                            <td>₹@room.Price</td>
+                            <td>@(room.IsAvailable ? "Yes" : "No")</td>
+                            <td>
+                                <button class="btn btn-warning btn-sm" onclick="loadEditRoom(@room.Id)">Edit</button>
+                                <button class="btn btn-danger btn-sm" onclick="deleteRoom(@room.Id)">Delete</button>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Edit Modal -->
+<div class="modal fade" id="editRoomModal" tabindex="-1" role="dialog" aria-labelledby="editRoomModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" id="editRoomModalContent">
+            <!-- Partial will load here -->
+        </div>
+    </div>
+</div>
+
+<script>
+    // Add Room AJAX
+    $("#addRoomForm").submit(function (e) {
+        e.preventDefault();
+        $.ajax({
+            url: '@Url.Action("CreateRoomFromDashboard", "Room")',
+            type: "POST",
+            data: $(this).serialize(),
+            success: function (html) {
+                $("#contentArea").html(html);
+            }
+        });
+    });
+
+    // Load Edit Room Form in Modal
+    function loadEditRoom(id) {
+        $.get('@Url.Action("EditRoomPartial", "Room")', { id: id }, function (html) {
+            $("#editRoomModalContent").html(html);
+            $("#editRoomModal").modal("show");
+        });
+    }
+
+    // Delete Room with confirmation
+    function deleteRoom(id) {
+        if (confirm("Are you sure you want to delete this room?")) {
+            $.post('@Url.Action("DeleteRoomFromDashboard", "Room")', { id: id }, function (html) {
+                $("#contentArea").html(html);
+            });
+        }
+    }
+
+
+</script>

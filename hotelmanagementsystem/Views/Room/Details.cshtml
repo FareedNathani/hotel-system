@@ -1,0 +1,20 @@
+﻿@using hotelmanagementsystem.Models
+@model hotelmanagementsystem.Models.Room
+
+@{
+    ViewBag.Title = "Room Details";
+}
+
+<h2>@Model.RoomNumber</h2>
+<img src="@Model.ImageUrl" alt="@Model.RoomNumber" style="width:400px;" />
+<p><strong>Price:</strong> $@Model.Price</p>
+<p>@Model.Type</p>
+
+@if (User.Identity.IsAuthenticated)
+{
+    <a href="@Url.Action("Create", "Booking", new { roomId = Model.Id })" class="btn btn-success">Book Now</a>
+}
+else
+{
+    <p><a href="@Url.Action("Login", "Account")">Login</a> to book this room.</p>
+}

@@ -1,0 +1,35 @@
+﻿@model hotelmanagementsystem.Models.Room
+
+<div class="card mb-4">
+    <div class="card-header bg-info text-white">
+        <h5 class="mb-0">Add New Room</h5>
+    </div>
+    <div class="card-body">
+        @using (Html.BeginForm("CreateRoomFromDashboard", "Room", FormMethod.Post, new { id = "roomForm" }))
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Title)
+                @Html.TextBoxFor(m => m.Title, new { @class = "form-control", placeholder = "Room Title" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.RoomNumber)
+                @Html.TextBoxFor(m => m.RoomNumber, new { @class = "form-control" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Type)
+                @Html.TextBoxFor(m => m.Type, new { @class = "form-control", placeholder = "Single / Double / Suite" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Price)
+                @Html.TextBoxFor(m => m.Price, new { @class = "form-control", type = "number", step = "0.01" })
+            </div>
+
+            <button type="submit" class="btn btn-success">Add Room</button>
+        }
+    </div>
+</div>

@@ -1,0 +1,347 @@
+﻿@{
+    Layout = null;
+    ViewBag.Title = "Admin Dashboard";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <style>
+        body {
+            margin: 0;
+            background-color: #f8f9fa;
+        }
+
+        .wrapper {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .sidebar {
+            width: 250px;
+            background-color: #343a40;
+            color: white;
+            padding-top: 20px;
+        }
+
+            .sidebar a {
+                color: white;
+                display: block;
+                padding: 10px 20px;
+                margin: 0px 20px;
+                text-decoration: none;
+            }
+
+                .sidebar a:hover,
+                .sidebar a.active {
+                    background-color: #495057;
+                }
+
+        .main-content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+
+        .stat-card {
+            border-radius: 12px;
+            padding: 20px;
+            color: white;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            position: relative;
+        }
+
+            .stat-card i {
+                font-size: 2.5rem;
+                opacity: 0.7;
+            }
+
+            .stat-card .number {
+                font-size: 2rem;
+                font-weight: bold;
+            }
+
+            .stat-card .label {
+                font-size: 1.1rem;
+            }
+
+            .stat-card .change {
+                font-size: 0.9rem;
+                position: absolute;
+                top: 15px;
+                right: 20px;
+                background-color: rgba(255, 255, 255, 0.2);
+                padding: 4px 8px;
+                border-radius: 20px;
+            }
+
+        .gradient-blue {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+        }
+
+        .gradient-green {
+            background: linear-gradient(135deg, #56ab2f, #a8e063);
+        }
+
+        .gradient-purple {
+            background: linear-gradient(135deg, #8e2de2, #4a00e0);
+        }
+
+        .gradient-yellow {
+            background: linear-gradient(135deg, #f7971e, #ffd200);
+        }
+
+        .dark-mode {
+            background-color: #1e1e1e !important;
+            color: white !important;
+        }
+
+            .dark-mode .sidebar {
+                background-color: #1c1c1c;
+            }
+
+            .dark-mode .stat-card {
+                color: white;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h4 class="text-center"><a href="#" id="tabDashboard" class="text-white text-center d-none d-md-block" style="font-size: 1.5rem; font-weight: bold;">SFM Dashboard</a></h4>
+            <a href="#" id="tabRooms"><i class="fas fa-bed"></i> Manage Rooms</a>
+            <a href="@Url.Action("AllBookings", "Reservation")" id="tabBookings"><i class="fas fa-calendar-check"></i> View Bookings</a>
+            <a href="#" id="tabUsers"><i class="fas fa-users-cog"></i> Manage Users</a>
+            <a href="#" id="viewContactsBtn"><i class="fas fa-envelope"></i> View Contact Messages</a>
+            <hr />
+            <div class="text-center mb-3">
+                <span>Welcome, @User.Identity.Name</span><br />
+                <a href="@Url.Action("Logout", "Account")" class="btn btn-sm btn-outline-light mt-2">Logout</a>
+            </div>
+            <div class="text-center">
+                <label class="text-light">Dark Mode</label><br />
+                <input type="checkbox" id="darkModeToggle" />
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <h4>@ViewBag.Title</h4>
+
+            <div id="dashboardMain">
+                <div class="row mb-4">
+                    <div class="col-md-3 mb-3">
+                        <div class="stat-card gradient-blue">
+                            <i class="fas fa-bed"></i>
+                            <div class="number counter" data-target="@ViewBag.TotalRooms">0</div>
+                            <div class="label">Rooms</div>
+                            <div class="change text-success">↑ 8% this week</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="stat-card gradient-green">
+                            <i class="fas fa-calendar-check"></i>
+                            <div class="number counter" data-target="@ViewBag.TotalBookings">0</div>
+                            <div class="label">Bookings</div>
+                            <div class="change text-danger">↓ 3% this week</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="stat-card gradient-purple">
+                            <i class="fas fa-users-cog"></i>
+                            <div class="number counter" data-target="@ViewBag.TotalUsers">0</div>
+                            <div class="label">Users</div>
+                            <div class="change text-success">↑ 12% this week</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="stat-card gradient-yellow">
+                            <i class="fas fa-envelope"></i>
+                            <div class="number counter" data-target="@ViewBag.TotalMessages">0</div>
+                            <div class="label">Messages</div>
+                            <div class="change text-warning">+2 new</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chart Section -->
+                <canvas id="statsChart" height="100"></canvas>
+            </div>
+
+            <div id="contentArea" class="mt-4">
+                <p>Loading content...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="@Url.Content("~/Scripts/jquery-3.7.0.min.js")"></script>
+    <script src="@Url.Content("~/Scripts/bootstrap.bundle.min.js")"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            function animateCounters() {
+                $('.counter').each(function () {
+                    const $this = $(this);
+                    const target = +$this.data('target');
+                    let count = 0;
+                    const step = Math.ceil(target / 30);
+
+                    const interval = setInterval(() => {
+                        count += step;
+                        if (count >= target) {
+                            $this.text(target);
+                            clearInterval(interval);
+                        } else {
+                            $this.text(count);
+                        }
+                    }, 40);
+                });
+            }
+
+            function loadContent(url) {
+                $("#contentArea").html("Loading...");
+                $.get(url, function (data) {
+                    $("#contentArea").html(data);
+                });
+            }
+
+            function activateTab(tabElement, url, callback) {
+                $(".sidebar a").removeClass("active");
+                $(tabElement).addClass("active");
+
+                $("#dashboardMain").hide();      // ✅ Hide dashboard
+                $("#contentArea").show();        // ✅ Show content area
+
+                loadContent(url);                // ✅ Load the clicked tab content
+
+                if (callback) callback();
+            }
+
+
+
+
+            $("#tabRooms").click(function (e) {
+                e.preventDefault();
+                activateTab(this, '@Url.Action("RoomsPartial", "Room")');
+            });
+
+            $("#tabBookings").click(function (e) {
+                e.preventDefault();
+                activateTab(this, '@Url.Action("BookingsPartial", "Admin")');
+            });
+
+            $("#tabUsers").click(function (e) {
+                e.preventDefault();
+                activateTab(this, '@Url.Action("UsersPartial", "Admin")');
+            });
+
+            $("#viewContactsBtn").click(function (e) {
+                e.preventDefault();
+                activateTab(this, '@Url.Action("ContactsPartial", "Admin")');
+            });
+
+            $("#btn-contacts").click(function () {
+                $.get('@Url.Action("ContactsPartial", "Admin")', function (data) {
+                    $("#contentArea").html(data);
+                });
+            });
+
+            $("#toggleSidebar").click(function () {
+                $("#sidebar").slideToggle();
+            });
+
+
+
+           
+
+
+
+            // Load Add/Edit User Form
+            window.loadUserForm = function (id) {
+                $.get('/Admin/EditUserPartial', { id: id }, function (html) {
+                    $("#userModalContent").html(html);
+                    $("#userModal").modal("show");
+                });
+            };
+
+
+
+            // Reload Users List
+            window.loadUsers = function () {
+                $.get('/Admin/UsersPartial', function (data) {
+                    $('#contentArea').html(data); // ✅ This replaces the user list
+                });
+            };
+
+
+            $(document).on("click", ".btn-secondary", function () {
+                $("#userModal").modal("hide");
+            });
+
+            $(document).on("click", ".close", function () {
+                $("#userModal").modal("hide");
+            });
+
+
+
+            // Global AJAX Anti-Forgery Token
+            $.ajaxSetup({
+                headers: {
+                    'RequestVerificationToken': $('input[name="__RequestVerificationToken"]').val()
+                }
+            });
+
+            $("#tabDashboard").click(function (e) {
+                e.preventDefault();
+                $(".sidebar a").removeClass("active");
+                $("#dashboardMain").fadeIn();
+                $("#contentArea").hide();
+                animateCounters(); // ✅ Re-run counter animation when Dashboard shown
+            });
+
+
+
+
+            $("#darkModeToggle").change(function () {
+                $("body").toggleClass("dark-mode", this.checked);
+            });
+
+
+            animateCounters();
+
+            // Chart
+            const ctx = document.getElementById('statsChart').getContext('2d');
+            const statsChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+                    datasets: [{
+                        label: 'Bookings',
+                        data: [12, 19, 3, 5, 2, 3, 8],
+                        backgroundColor: '#1e88e5',
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: { legend: { display: false } },
+                    scales: { y: { beginAtZero: true } }
+                }
+            });
+
+        });
+
+
+
+    </script>
+</body>
+</html>

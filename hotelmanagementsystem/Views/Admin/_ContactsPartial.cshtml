@@ -1,0 +1,32 @@
+﻿@model List<hotelmanagementsystem.Models.Contact>
+
+
+
+<div class="card">
+    <div class="card-header bg-success text-white">
+        <h5 class="mb-0">Contact Messages</h5>
+    </div>
+    <div class="card-body">
+        <table class="table table-bordered table-striped">
+            <thead class="thead-dark">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Message</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var msg in Model)
+            {
+                <tr>
+                    <td>@msg.Name</td>
+                    <td>@msg.Email</td>
+                    <td>@msg.Phone</td>
+                    <td>@msg.Message</td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</div>

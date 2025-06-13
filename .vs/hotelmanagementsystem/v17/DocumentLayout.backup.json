@@ -1,0 +1,709 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Uni Project 2\\hotelmanagementsystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\blog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\blog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\admin\\_manageuserspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\admin\\_manageuserspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|c:\\uni project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\admin\\_userformpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\admin\\_userformpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|c:\\uni project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|c:\\uni project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\admin\\_editroomformpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\admin\\_editroomformpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|c:\\uni project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\admin\\_manageroomspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\admin\\_manageroomspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|c:\\uni project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\admin\\_contactspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\admin\\_contactspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\models\\contactviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\models\\contactviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\admin\\_viewbookingspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\admin\\_viewbookingspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\admin\\_addroomformpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\admin\\_addroomformpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\blog\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\blog\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\room\\rooms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\room\\rooms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\reservation\\booknow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\reservation\\booknow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\reservation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\reservation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\room\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\room\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\migrations\\202506102225380_fixrooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\migrations\\202506102225380_fixrooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\reservation\\viewbookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\reservation\\viewbookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\reservation\\allbookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\reservation\\allbookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\room\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\room\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\room\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\room\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\room\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\room\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\room\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\room\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\content\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{697CC7E6-620B-4AD6-88C4-21B621632F15}|hotelmanagementsystem\\hotelmanagementsystem.csproj|solutionrelative:hotelmanagementsystem\\content\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAANEAAAAAAAAAAAAqwAUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T12:12:38.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ManageUsersPartial.cshtml",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Admin\\_ManageUsersPartial.cshtml",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Admin\\_ManageUsersPartial.cshtml",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Admin\\_ManageUsersPartial.cshtml",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Admin\\_ManageUsersPartial.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T19:23:54.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "hotelmanagementsystem\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAUwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T09:51:04.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "hotelmanagementsystem\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T12:11:39.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_UserFormPartial.cshtml",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Admin\\_UserFormPartial.cshtml",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Admin\\_UserFormPartial.cshtml",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Admin\\_UserFormPartial.cshtml",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Admin\\_UserFormPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T17:30:27.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Blog\\Index.cshtml",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Blog\\Index.cshtml",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Blog\\Index.cshtml",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Blog\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T23:14:13.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAAGwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T16:57:01.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_EditRoomFormPartial.cshtml",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Admin\\_EditRoomFormPartial.cshtml",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Admin\\_EditRoomFormPartial.cshtml",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Admin\\_EditRoomFormPartial.cshtml",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Admin\\_EditRoomFormPartial.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T17:05:01.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ManageRoomsPartial.cshtml",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Admin\\_ManageRoomsPartial.cshtml",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Admin\\_ManageRoomsPartial.cshtml",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Admin\\_ManageRoomsPartial.cshtml",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Admin\\_ManageRoomsPartial.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T17:05:00.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T10:45:21.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ContactsPartial.cshtml",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Admin\\_ContactsPartial.cshtml",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Admin\\_ContactsPartial.cshtml",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Admin\\_ContactsPartial.cshtml",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Admin\\_ContactsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T17:50:44.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ContactViewModel.cs",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Models\\ContactViewModel.cs",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Models\\ContactViewModel.cs",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Models\\ContactViewModel.cs",
+              "RelativeToolTip": "hotelmanagementsystem\\Models\\ContactViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T10:16:21.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Models\\Contact.cs",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Models\\Contact.cs",
+              "RelativeToolTip": "hotelmanagementsystem\\Models\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T23:37:43.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewBookingsPartial.cshtml",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Admin\\_ViewBookingsPartial.cshtml",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Admin\\_ViewBookingsPartial.cshtml",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Admin\\_ViewBookingsPartial.cshtml",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Admin\\_ViewBookingsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T19:23:49.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_AddRoomFormPartial.cshtml",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Admin\\_AddRoomFormPartial.cshtml",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Admin\\_AddRoomFormPartial.cshtml",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Admin\\_AddRoomFormPartial.cshtml",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Admin\\_AddRoomFormPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T20:17:09.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "hotelmanagementsystem\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T10:06:02.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Blog\\Details.cshtml",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Blog\\Details.cshtml",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Blog\\Details.cshtml",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Blog\\Details.cshtml",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAAJgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T23:14:57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Controllers\\BlogController.cs",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "hotelmanagementsystem\\Controllers\\BlogController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T23:10:42.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T22:33:55.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Models\\User.cs",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Models\\User.cs",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Models\\User.cs",
+              "RelativeToolTip": "hotelmanagementsystem\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T09:57:08.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Rooms.cshtml",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Room\\Rooms.cshtml",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Room\\Rooms.cshtml",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Room\\Rooms.cshtml",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Room\\Rooms.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAABUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T19:56:48.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T12:54:10.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Blog.cs",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Models\\Blog.cs",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Models\\Blog.cs",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Models\\Blog.cs",
+              "RelativeToolTip": "hotelmanagementsystem\\Models\\Blog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T23:09:10.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BookNow.cshtml",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Reservation\\BookNow.cshtml",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Reservation\\BookNow.cshtml",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Reservation\\BookNow.cshtml",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Reservation\\BookNow.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T22:32:50.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Models\\Reservation.cs",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Models\\Reservation.cs",
+              "RelativeToolTip": "hotelmanagementsystem\\Models\\Reservation.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T20:24:26.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Reservation\\Index.cshtml",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Reservation\\Index.cshtml",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Reservation\\Index.cshtml",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Reservation\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T20:26:54.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RoomController.cs",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Controllers\\RoomController.cs",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Controllers\\RoomController.cs",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Controllers\\RoomController.cs",
+              "RelativeToolTip": "hotelmanagementsystem\\Controllers\\RoomController.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAUwJ4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T12:25:16.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Room\\Index.cshtml",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Room\\Index.cshtml",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Room\\Index.cshtml",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Room\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T12:25:42.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "202506102225380_FixRooms.cs",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Migrations\\202506102225380_FixRooms.cs",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Migrations\\202506102225380_FixRooms.cs",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Migrations\\202506102225380_FixRooms.cs",
+              "RelativeToolTip": "hotelmanagementsystem\\Migrations\\202506102225380_FixRooms.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T22:25:42.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Models\\Room.cs",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Models\\Room.cs",
+              "RelativeToolTip": "hotelmanagementsystem\\Models\\Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T12:21:37.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ViewBookings.cshtml",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Reservation\\ViewBookings.cshtml",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Reservation\\ViewBookings.cshtml",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Reservation\\ViewBookings.cshtml",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Reservation\\ViewBookings.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T20:54:13.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AllBookings.cshtml",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Reservation\\AllBookings.cshtml",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Reservation\\AllBookings.cshtml",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Reservation\\AllBookings.cshtml",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Reservation\\AllBookings.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T20:29:58.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T10:45:18.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Room\\Edit.cshtml",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Room\\Edit.cshtml",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Room\\Edit.cshtml",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Room\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T12:34:56.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Room\\Details.cshtml",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Room\\Details.cshtml",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Room\\Details.cshtml",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Room\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T12:26:04.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Room\\Delete.cshtml",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Room\\Delete.cshtml",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Room\\Delete.cshtml",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Room\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T16:56:04.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Room\\Create.cshtml",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Room\\Create.cshtml",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Room\\Create.cshtml",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Room\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T12:34:30.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Web.config",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Web.config",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Web.config",
+              "RelativeToolTip": "hotelmanagementsystem\\Web.config",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-06T12:51:54.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T10:09:34.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Web.config",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Web.config",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Web.config",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-06T17:23:23.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "hotelmanagementsystem\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T10:09:01.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Content\\style.css",
+              "RelativeDocumentMoniker": "hotelmanagementsystem\\Content\\style.css",
+              "ToolTip": "C:\\Uni Project 2\\hotelmanagementsystem\\hotelmanagementsystem\\Content\\style.css",
+              "RelativeToolTip": "hotelmanagementsystem\\Content\\style.css",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAAFYGAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-05T20:02:56.468Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

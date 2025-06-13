@@ -1,0 +1,38 @@
+﻿@model hotelmanagementsystem.Models.Room
+
+@using (Html.BeginForm("Create", "Room", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.RoomNumber)
+        @Html.TextBoxFor(m => m.RoomNumber, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.RoomNumber)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Title)
+        @Html.TextBoxFor(m => m.Title, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Title)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Price)
+        @Html.TextBoxFor(m => m.Price, new { @class = "form-control", type = "number", step = "0.01" })
+        @Html.ValidationMessageFor(m => m.Price)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.ImageUrl)
+        @Html.TextBoxFor(m => m.ImageUrl, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.ImageUrl)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Description)
+        @Html.TextAreaFor(m => m.Description, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Description)
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+}
